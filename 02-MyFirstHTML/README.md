@@ -19,3 +19,5 @@
     * Create a table with 2 columns (animal class and animal name) and 4 rows of animals.
     * Use an alternate way of separating links without line breaks.
     * Embed a Youtube video of your favorite band/musician.
+
+  *Check out my work here: https://codepen.io/alibar/pen/NvbmzE
