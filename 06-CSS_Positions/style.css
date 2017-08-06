@@ -1,0 +1,33 @@
+body {
+    width:950px;
+    margin:0 auto;
+}
+
+div {
+    background-color: #cccccc;
+}
+
+div.absolute {
+    background-color: dimgrey;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    height: 87.5px;
+    width: 200px;
+    text-align: center;
+}
+
+div.relative{
+    height: 175px;
+    position: relative;
+    text-align: center;
+}
+
+div.fixed{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+}
