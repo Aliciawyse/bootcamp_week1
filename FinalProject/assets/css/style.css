@@ -1,0 +1,88 @@
+body {
+    margin-top: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+}
+
+.border {
+    border-top: 2px solid gainsboro;
+    height: 43px;
+    background-color: AliceBlue;
+}
+
+.spaceholder {
+    flex-grow: 2;
+}
+
+.container {
+    flex-grow: 1;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.container2 {
+    flex-grow: 1;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+}
+
+nav li:nth-child(2) {
+    margin-right: 5%;
+    margin-left: 5%;
+    border-right: thin solid gainsboro;
+    border-left: thin solid gainsboro;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*Following code is for everything under header's bottom border*/
+
+.all-content-container {
+    background-color: AliceBlue;
+}
+
+.main-content {
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+}
+
+.AboutMe {
+    width: 60%;
+    padding: 4%;
+    background: white;
+    display: inline-block;
+}
+
+.ContactMe {
+    width: 30%;
+    display: inline-block;
+    display: flex;
+    float: right;
+    justify-content: center;
+    background-color: white;
+}
+
+aside li {
+    display: inline-block;
+    font-size: 400%;
+    flex-grow: 1;
+}
