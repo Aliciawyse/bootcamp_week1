@@ -1,6 +1,5 @@
 body {
     margin-top: 0;
-
 }
 
 header {
@@ -8,10 +7,13 @@ header {
     align-items: center;
     max-width: 960px;
     margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 h1 {
     color: white;
+    padding-right: 9%;
+    padding-left: 9%;
 }
 
 .border {
@@ -21,7 +23,7 @@ h1 {
 }
 
 .spaceholder {
-    flex-grow: 2;
+    flex-grow: 15;
 }
 
 .container {
@@ -38,16 +40,18 @@ nav li {
     display: inline-block;
     font-size: 20px;
     color: grey;
+    margin:0px;
 }
 
 nav li:nth-child(2) {
-    margin-right: 5%;
+    margin-right:5%;
     margin-left: 5%;
     border-right: thin solid gainsboro;
     border-left: thin solid gainsboro;
     padding-left: 5%;
     padding-right: 5%;
 }
+
 
 /*Following code is for everything under header's bottom border*/
 
@@ -56,7 +60,7 @@ nav li:nth-child(2) {
 }
 
 .main-content {
-    align-items: center;
+    display: flex;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -66,23 +70,36 @@ h2 {
 }
 
 .AboutMe {
-    width: 60%;
     padding: 4%;
     background: white;
     display: inline-block;
+    flex-grow: 2;
+    width: 50%;
+    border: solid 1px;
+    margin-right: 4%;
 }
 
+
 .ContactMe {
-    width: 30%;
-    display: inline-block;
-    display: flex;
-    float: right;
     justify-content: center;
     background-color: white;
+    flex-grow: 1;
+    border: solid 1px;
+    text-align: center;
+    height: 200px;
 }
 
 aside li {
     display: inline-block;
     font-size: 400%;
     flex-grow: 1;
+}
+
+img {
+    float: left;
+    margin-right: 5%;
+}
+
+p {
+    margin-top: 0px;
 }
