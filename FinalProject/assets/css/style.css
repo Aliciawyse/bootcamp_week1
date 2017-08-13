@@ -1,5 +1,6 @@
 body {
     margin-top: 0;
+    height: 100vh;
 }
 
 
@@ -67,10 +68,12 @@ nav li a {
 .all-content-container {
     background-color: AliceBlue;
     padding-bottom: 5%;
+    height: 100vh;
 }
 
 .main-content {
     display: flex;
+    /*Here's where I set margin for main content of the page*/
     max-width: 960px;
     margin: 0 auto;
 }
