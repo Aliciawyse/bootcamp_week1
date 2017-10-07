@@ -275,3 +275,17 @@ textarea {
     padding-bottom: 7%;
 
 }
+
+@media screen and (max-width: 980px){
+    .all-content-container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .AboutMe img {
+        /* float: left; */
+        margin-right: 5%;
+        width: 95%;
+        height: 50%;
+    }
+}
